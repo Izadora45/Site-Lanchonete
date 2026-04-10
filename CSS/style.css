@@ -2,6 +2,7 @@
 
 @import url('menu.css');
 @import url('home.css');
+@import url('cardapio.css');
 
 :root{
     --color-primary-1:#fff9ea;
@@ -61,4 +62,32 @@ li{
 }
 .social-media-buttons a:hover{ 
     box-shadow: 0px 0px 12px 4px var(--color-primary-6);
+}
+.section-title{
+    color: var(--color-primary-6);
+    font-size: 3rem;
+    text-align: center;
+}
+.section-subtitle{
+    font-size: 2.1875rem;
+    text-align: center;
+}
+.area-cards{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 50px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 350px;
+    gap: 18px;
+    padding: 20px;
+    background-color: var(--color-neutra-2);
+    position: relative;
+    box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.2);
 }
