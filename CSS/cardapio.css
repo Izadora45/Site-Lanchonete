@@ -5,6 +5,17 @@
     justify-content: center;
     min-height: 100vh;
     overflow: hidden;
+    
+    
+}
+.area-cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .card{
     display: flex;
@@ -18,7 +29,7 @@
     box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.2);
     overflow: hidden;
     align-items: center;
-    height: 500px;
+    height: 550px;
 }
 .card-heart{
     position:absolute;
@@ -53,7 +64,7 @@
     color: rgb(219, 197, 197);
     text-align: center;
 }
-.card-reat i{
+.card-rate i{
     color: var(--color-primary-6)
 }
 .card-price{
@@ -64,8 +75,12 @@
 @media screen and (max-width:600px){
     .card-title{
         font-size: 1.2rem;
+        
     }
     .descricao{
         font-size: 1rem;
+    }
+    .cardapio{
+        padding-top: 15%;
     }
 }
