@@ -12,6 +12,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <script src="JS/menu.js" defer></script>
+
+    <script src="JS/carrossel.js" defer></script>
 </head>
 <body>
     <header>
@@ -37,13 +39,30 @@
             </ul>
         </div>
     </header>
+    <div class="area-carrossel-principal">
+        <div class="carrossel-principal" id="carrossel-principal">
+            <div class="slide">
+                <img src="IMG/3.png" alt="">
+            </div>
+      
+            <div class="slide">
+                <img src="IMG/4.png" alt="">
+            </div>
+        
+            <div class="slide">
+                <img src="IMG/8.png" alt="">
+            </div>
+        </div>
+        <button onclick="prev()"><</button>
+        <button onclick="next()">></button>
+    </div>
     <main class="content">
         <section class="home" id="home">
             <div class="home" id="home"></div>
             <div class="shape"></div>
             <div class="cta">
                 <h1 class="title">
-                    O sabor vai até<span> você.</span>
+                    O sabor vai até<span>você.</span>
                 </h1>
                 <p class="descricao">
                     Venha experimentar uma viagem gastronômica única, onde cada prato é preparado com ingredientes frescos e de alta qualidade.
@@ -246,6 +265,61 @@
             </div>
         </div>
     </section>
+    <section class="area-carrossel">
+        <div class="track">
+            <div class="track-img">
+                <div class="gradiente"></div>
+                <img src="IMG/1.png" alt="">
+            </div>
+            <div class="track-img">
+                <div class="gradiente"></div>
+                <img src="IMG/2.png" alt="">
+            </div>
+            <div class="track-img">
+                <div class="gradiente"></div>
+                <img src="IMG/5.png" alt="">
+            </div>
+            <div class="track-img">
+                <div class="gradiente"></div>
+                <img src="IMG/9.png" alt="">
+            </div>
+            <!-- duplicada -->
+            <div class="track-img">
+                <div class="gradiente"></div>
+                <img src="IMG/1.png" alt="">
+            </div>
+            <div class="track-img">
+                <div class="gradiente"></div>
+                <img src="IMG/2.png" alt="">
+            </div>
+            <div class="track-img">
+                <div class="gradiente"></div>
+                <img src="IMG/5.png" alt="">
+            </div>
+            <div class="track-img">
+                <div class="gradiente"></div>
+                <img src="IMG/9.png" alt="">
+            </div>
+            <!-- duplicada -->
+            <div class="track-img">
+                <div class="gradiente"></div>
+                <img src="IMG/1.png" alt="">
+            </div>
+            <div class="track-img">
+                <div class="gradiente"></div>
+                <img src="IMG/2.png" alt="">
+            </div>
+            <div class="track-img">
+                <div class="gradiente"></div>
+                <img src="IMG/5.png" alt="">
+            </div>
+            <div class="track-img">
+                <div class="gradiente"></div>
+                <img src="IMG/9.png" alt="">
+            </div>
+            
+        </div>
+    </section>
     <section class="avaliacao" id="avaliacao">
         <img src="IMG/10.png" alt="" class="imagem-chef">
         <div class="depoimentos-content">
@@ -298,6 +372,7 @@
             </button>
         </div> 
     </section>
+
     <footer>
         <div class="footer-itens">
             <span class="copyrigth">
